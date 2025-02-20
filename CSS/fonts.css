@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'ema-lemonmilkregular';
+    src: url(../fonts/LEMONMILK-Regular.otf);
+}
+
+@font-face {
+    font-family: 'ema-agencyb';
+    src: url(../fonts/AGENCYB.TTF);
+}
+
+@font-face {
+    font-family: 'ema-airstrike';
+    src: url(../fonts/airstrike.ttf);
+}
+
+@font-face {
+    font-family: 'ema-airstrikebold';
+    src: url(../fonts/airstrikebold.ttf);
+}
+
+@font-face {
+    font-family: 'ema-alger';
+    src: url(../fonts/ALGER.TTF);
+}
+
+@font-face {
+    font-family: 'ema-ancient';
+    src: url(../fonts/Ancient\ Medium.ttf);
+}
+
+@font-face {
+    font-family: 'ema-arialbd';
+    src: url(../fonts/arialbd.ttf);
+}
+
+@font-face {
+    font-family: 'ema-arialbi';
+    src: url(../fonts/arialbi.ttf);
+}
+
+@font-face {
+    font-family: 'ema-avignon';
+    src: url(../fonts/Avignon\ Pro-Xlight.ttf);
+}
+
+@font-face {
+    font-family: 'ema-bebasneueregular';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ema-bookstory';
+    src: url(../fonts/Bookstory.ttf);
+}
+
+@font-face {
+    font-family: 'ema-freescpt';
+    src: url(../fonts/FREESCPT.TTF);
+}
+
+@font-face {
+    font-family: 'ema-itcedscr';
+    src: url(../fonts/ITCEDSCR.TTF);
+}
+
+@font-face {
+    font-family: 'ema-phantomstormspaced';
+    src: url(../fonts/phantomstormspaced.ttf);
+}
+
+@font-face {
+    font-family: 'ema-akiraexpandeddemo';
+    src: url(../fonts/Akira\ Expanded\ Demo.otf);
+}

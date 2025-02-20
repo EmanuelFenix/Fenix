@@ -1,0 +1,90 @@
+@import url('reset.css');
+
+* {
+    font-family: Arial;
+}
+
+#Title_form_enter_account {
+    text-align: center;
+    font-size: 30px;
+    color: #555555;
+}
+
+form {
+    animation: enter 1s;
+    font-family: Arial;
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #999999;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: var(--cinza6);
+    color: var(--branco-total);
+    border-radius: 5px;
+    font-family: 'ema-lemonmilkregular', Arial;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+input {
+    color: var(--cinza8);
+}
+
+.contain {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: var(--cinza8);*/
+    color: var(--branco-total);
+    z-index: 999999999999;
+}
+
+.contain form {
+    width: 100%;
+    max-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    box-shadow: 0 0 5px #999999;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#send {
+    color: #ffffff;
+    background-color: #00ff22;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: #00d21c;
+}
